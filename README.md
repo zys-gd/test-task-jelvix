@@ -15,3 +15,12 @@ DurationScore::evaluate('49.9808,36.2527', '50.4547,30.5238', 'google_directions
 
 Real example you can find in the 
 `src\Controller\DistanceController.php`
+
+### Requirements
+You must put 2 env variables:
+```
+GOOGLE_API_KEY=AIzaSyBKT1r3JklfdsakjhufdsIUHuifdsnkfdsu
+```
+```
+GOOGLE_ENDPOINT=https://maps.googleapis.com/maps/api/distancematrix/json
+```
