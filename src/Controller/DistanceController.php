@@ -28,16 +28,15 @@ class DistanceController extends AbstractController
      */
     public function indexAction()
     {
-        $data = $this->durationScore->evaluate('49.9808,36.2527', '50.4547,30.5238', '');
-        echo '<pre>';
-        print_r($data);
-        echo '</pre>';
+        // available algorithms:
+        //     google_directions_30
+        //     google_directions
+        //     straight
 
-        $data = $this->durationScore->evaluate('Kharkov', 'Kiyiv', 'google_directions_30');
-        echo '<pre>';
-        print_r($data);
-        echo '</pre>';
-        die;
-        return new Response();
+        // available transformations:
+        //     even_distribution
+        //     log_with_base
+        $data = $this->durationScore->evaluate('49.9808,36.2527', '50.4547,30.5238', '', '');
+        return new Response($data);
     }
 }
