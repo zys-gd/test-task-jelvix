@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad8f2229-4868-468e-8d31-e0246aaa4f10" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Utils/Algorithm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Utils/Transformation.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/DistanceController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/DistanceController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +100,7 @@
       <workItem from="1592929786955" duration="356000" />
       <workItem from="1592930154846" duration="473000" />
       <workItem from="1592931307333" duration="2086000" />
-      <workItem from="1592979535027" duration="20836000" />
+      <workItem from="1592979535027" duration="23743000" />
     </task>
     <task id="LOCAL-00001" summary="+ add symfony skeleton">
       <created>1592930232300</created>
@@ -137,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593007975367</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="*fix">
+      <created>1593011352100</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1593011352100</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,14 +166,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593003671783" />
-    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1593007974282">
+    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1593011350915">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1593007974282" />
-    <state x="739" y="242" key="NewPhpClassDialog" timestamp="1593000340493">
+    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1593011350915" />
+    <state x="1014" y="312" key="NewPhpClassDialog" timestamp="1593014007240">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="739" y="242" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593000340493" />
+    <state x="1014" y="312" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593014007240" />
     <state x="804" y="240" key="RollbackChangesDialog" timestamp="1593010873201">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -175,14 +182,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1592930138740" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1593007979589">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1593011354157">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1593007979589" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1593011354157" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1593002186385">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593002186385" />
+    <state x="769" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593012449162">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="769" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1593012449162" />
     <state x="61" y="47" width="1828" height="934" key="find.popup" timestamp="1592995335893">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
