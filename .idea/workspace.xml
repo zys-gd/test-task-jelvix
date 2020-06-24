@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad8f2229-4868-468e-8d31-e0246aaa4f10" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/config/packages/duration_score.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/DistanceController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,13 +59,18 @@
       <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
       <path value="$PROJECT_DIR$/vendor/symfony/string" />
       <path value="$PROJECT_DIR$/vendor/psr/cache" />
-      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
       <path value="$PROJECT_DIR$/vendor/psr/http-message" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
       <path value="$PROJECT_DIR$/vendor/zys-gd/duration-score" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
     </include_path>
   </component>
   <component name="ProjectId" id="1djDgxksVRYKOQRnptbKETb1VWi" />
@@ -73,8 +83,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/vendor/zys-gd/duration-score" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="Symfony2.SettingsForm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Work\localhost\test-jelvix\vendor\zys-gd\duration-score" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -90,7 +106,7 @@
       <workItem from="1592929786955" duration="356000" />
       <workItem from="1592930154846" duration="473000" />
       <workItem from="1592931307333" duration="2086000" />
-      <workItem from="1592979535027" duration="3019000" />
+      <workItem from="1592979535027" duration="17298000" />
     </task>
     <task id="LOCAL-00001" summary="+ add symfony skeleton">
       <created>1592930232300</created>
@@ -99,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592930232300</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="* update composer">
+      <created>1592982755180</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1592982755180</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,20 +130,45 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="+ add symfony skeleton" />
-    <option name="LAST_COMMIT_MESSAGE" value="+ add symfony skeleton" />
+    <MESSAGE value="* update composer" />
+    <option name="LAST_COMMIT_MESSAGE" value="* update composer" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1592930230954">
+    <state x="765" y="201" key="#com.intellij.ide.util.MemberChooser" timestamp="1593003506327">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1592930230954" />
+    <state x="765" y="201" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1593003506327" />
+    <state x="690" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1593003671783">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593003671783" />
+    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1592982754158">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1592982754158" />
+    <state x="739" y="242" key="NewPhpClassDialog" timestamp="1593000340493">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="242" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593000340493" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1592930138740">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1592930138740" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1592930235426">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1592982756734">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592930235426" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592982756734" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1593002186385">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593002186385" />
+    <state x="61" y="47" width="1828" height="934" key="find.popup" timestamp="1592995335893">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="61" y="47" width="1828" height="934" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1592995335893" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1593003575274">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593003575274" />
   </component>
 </project>

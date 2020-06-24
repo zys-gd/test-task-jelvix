@@ -1,5 +1,13 @@
 <?php
+// $from = "erode";
+// $to = "Chennai";
+//
+// $from = urlencode($from);
+// $to = urlencode($to);
+//
+// $data = file_get_contents("https://maps.googleapis.com/maps/api/distancematrix/json?origins=$from&destinations=$to&language=en-EN&sensor=false&key=AIzaSyBKT1r3QbF6aEvoj4w7KkpIYmqtpln0Pj0");
 
+// die;
 use App\Kernel;
 use Symfony\Component\Dotenv\Dotenv;
 use Symfony\Component\ErrorHandler\Debug;
